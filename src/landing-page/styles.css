@@ -1,0 +1,131 @@
+.tbp-logo{
+    width: 200px;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.ribbon{
+    list-style: none;
+    display: flex;
+    text-decoration: none; 
+    justify-content: space-between;
+}
+
+.dropdown-about > li{
+    list-style: none;
+}
+.ribbon-about{
+    border: none;
+    color: #4169e1;
+    font-size: 16pt; 
+    background-color: white;
+    padding: 23px;
+}
+
+.dropdown-gi > li{
+    list-style: none;
+}
+.ribbon-gi{
+    border: none;
+    color: #4169e1; 
+    font-size: 16pt;
+    background-color: white;
+    padding: 23px; 
+}
+
+.dropdown-news > li{
+    list-style: none; 
+}
+.ribbon-news{
+    border: none;
+    color: #4169e1; 
+    font-size: 16pt;
+    background-color: white;
+    padding: 23px; 
+}
+
+.dropdown-resources > li{
+    list-style: none; 
+}
+.ribbon-resources{
+    border: none;
+    color: #4169e1;
+    font-size: 16pt;
+    background-color: white;
+    padding: 23px;  
+}
+
+.ribbon > li{
+    padding: 23px;
+    font-size: 16pt;
+    
+}
+.ribbon > li:last-child{
+    padding-right: 40px;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    /* padding: 12px 25px; */
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  li {
+    padding: 4px;
+    align-items: center;
+    transition: all linear 0.3s;
+  }
+  
+  li:hover {
+    background: rgb(203, 209, 199);
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+.main-content {
+    padding-top: 200px; /* Adjust padding to match the header's height */
+    text-align: center; /* Horizontally center the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Vertically center the content */
+    height: 100vh; /* Ensure the content takes up the full viewport height */
+    
+}
+
+.footer{
+    text-align: center;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-in{
+    margin-top: auto;
+    background-color: #000;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    padding: 30px;
+}
+
+
+
+
+
